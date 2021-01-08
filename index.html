@@ -28,15 +28,6 @@
                 <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
             </form>
         </div>
-        <!--<div class="firecircle"></div>-->
-        <svg>
-            <filter id="wavy">
-                <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="5" speed="2">
-                    <animate attributeName="baseFrequency" dur="60s" value="0.02;0.005;0.02" repeatCount="indefinite">
-                </feTurbulence>
-                <feDisplacementMap in="SourceGraphic" scale="30">
-            </filter>
-        </svg>
         <script type="text/javascript" src="vanilla-tilt.js"></script>
         <script type="text/javascript">
 	        VanillaTilt.init(document.querySelector(".container"), {
